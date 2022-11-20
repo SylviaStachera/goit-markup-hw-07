@@ -515,7 +515,6 @@ figure {
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
-	margin-right: 30px;
 }
 
 .section--space {
@@ -755,21 +754,29 @@ figure {
 /* ========== SECTION - THE END TEAM ========== */
 /* ========== SECTION - CLIENTS ========== */
 
-/* ========== SECTION - THE END CLIENTS ========== */
-/* ============== THE END MAIN ============== */
+.clients {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
 
-.client-icons {
+.clients__icons {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	fill: #afb1b8;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-icons:hover {
+.clients__icons:hover {
 	border: 1px solid var(--active-color);
 	fill: var(--active-color);
 	cursor: pointer;
 }
-/* style footer */
+
+/* ========== SECTION - THE END CLIENTS ========== */
+/* ============== THE END MAIN ============== */
+
+/* ============== FOOTER ============== */
+
 .footer-style {
 	background-color: rgba(47, 48, 58, 1);
 }
