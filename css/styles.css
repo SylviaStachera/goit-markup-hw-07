@@ -274,8 +274,6 @@ summary {
 
 /* ========== THE END NORMALIZE ========== */
 
-/* ========== STYLE ========== */
-
 /* ========== BASIC ========== */
 
 :root {
@@ -309,6 +307,7 @@ figure {
 
 /* ========== END BASIC ========== */
 
+/* ============== HEADER ============== */
 /* ========== MENU ========== */
 
 .header {
@@ -418,95 +417,16 @@ figure {
 	letter-spacing: 0.03em;
 }
 
-/* .active-color,
-.active-color-page {
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.active-color-page {
-	position: relative;
-}
-.active-color:active,
-.active-color:hover,
-.active-color-page:hover {
-	color: var(--active-color);
-	cursor: pointer;
-}
-
-.active-color-page::after {
-	content: '';
-	position: absolute;
-	bottom: -32px;
-	left: -5%;
-	background-color: var(--active-color);
-	height: 4px;
-	width: 110%;
-	border-radius: 2px;
-} */
-
-/* .no-underline {
-	text-decoration: none;
-} */
-
-/* .no-dots {
-	list-style: none;
-} */
-
-/* .logo-up {
-	font-size: 26px;
-	font-family: 'Raleway', sans-serif;
-	margin: 24px 93px 25px 0;
-	height: 31px;
-	width: 145px;
-	font-weight: bold;
-	letter-spacing: 0.03em;
-
-	color: rgba(0, 0, 0, 1);
-} */
-
-/* .logo-down {
-	font-size: 26px;
-	font-family: 'Raleway', sans-serif;
-	height: 31px;
-	width: 145px;
-	font-weight: bold;
-	letter-spacing: 0.03em;
-
-	color: var(--main-white);
-} */
-
-/* .logo-front {
-	color: var(--active-color);
-} */
-
-/* .logo-studio {
-	color: rgba(255, 255, 255, 1);
-} */
-
-/* .menu-space {
-	margin-right: 46px;
-} */
-/* .menu-wrap {
-	display: flex;
-	list-style: none;
-	align-items: center;
-} */
-/* .nav-color {
-	color: var(--main-black);
-} */
-/* .flex-icon {
-	display: flex;
-	align-items: center;
-	fill: #afb1b8;
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 /* ========== THE END MENU ========== */
 
-/* ========== HEADER ========== */
+/* ========== TITLE ========== */
 
-/* nagłówek */
-.header-title {
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -517,7 +437,7 @@ figure {
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.style-title {
+.title-description {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -526,12 +446,7 @@ figure {
 	color: var(--main-white);
 }
 
-.btn-flex {
-	display: flex;
-	justify-content: center;
-}
-
-.btn-style {
+.title-btn {
 	margin-top: 30px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -547,12 +462,12 @@ figure {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.btn-style:hover,
-.btn-style:active {
+.title-btn:hover,
+.title-btn:active {
 	cursor: pointer;
 }
-
-/* ========== THE END HEADER ========== */
+/* ========== THE END TITLE ========== */
+/* ============== THE END HEADER ============== */
 
 /* style main */
 
