@@ -1,0 +1,8 @@
+.overlay {
+	position: relative;
+	overflow: hidden;
+	max-height: 294px;
+}
+.overlay:hover .divHidden {
+	transform: translateY(0);
+}
