@@ -592,7 +592,6 @@ figure {
 
 /* ========== THE END SECTION - WORK ========== */
 
-/* ========== SECTION - WORK ========== */
 /* .div-rel {
 	position: relative;
 	max-height: 294px;
@@ -644,24 +643,64 @@ figure {
 	letter-spacing: 0.03em;
 } */
 
-.section-dark {
+/* ========== SECTION - TEAM ========== */
+
+.section--dark {
 	background-color: var(--darker-white);
 }
 
-.section-figure {
+.team {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.card {
 	background-color: var(--main-white);
 	border: 1px solid #eeeeee;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.list-icon {
+.card__name {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1875;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.card__job {
+	padding-bottom: 16px;
+	font-size: 16px;
+	line-height: 1.1875;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-grey);
+}
+
+/* .section-figure {
+	background-color: var(--main-white);
+	border: 1px solid #eeeeee;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+} */
+
+.social {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 32px;
 	padding-bottom: 30px;
 	list-style: none;
 }
-.main-description {
+/* .list-icon {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 32px;
+	padding-bottom: 30px;
+	list-style: none;
+} */
+/* .main-description {
 	margin-top: 30px;
 	margin-bottom: 10px;
 	font-weight: 500;
@@ -678,6 +717,46 @@ figure {
 	letter-spacing: 0.03em;
 	color: var(--main-grey);
 }
+ */
+
+.ellipse {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--main-white);
+	fill: #afb1b8;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ellipse:hover {
+	background-color: var(--active-color);
+	fill: var(--main-white);
+	cursor: pointer;
+}
+
+.ellipse__position {
+	margin: 12px;
+}
+
+/* .ellipse-section {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--main-white);
+	fill: #afb1b8;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ellipse-section:hover {
+	background-color: var(--active-color);
+	fill: var(--main-white);
+	cursor: pointer;
+} */
+
+/* ========== SECTION - THE END TEAM ========== */
+/* ========== SECTION - CLIENTS ========== */
+
+/* ========== SECTION - THE END CLIENTS ========== */
+/* ============== THE END MAIN ============== */
 
 .client-icons {
 	border: 1px solid #afb1b8;
@@ -690,23 +769,6 @@ figure {
 	fill: var(--active-color);
 	cursor: pointer;
 }
-
-.ellipse-section {
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	background-color: var(--main-white);
-	fill: #afb1b8;
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.ellipse-section:hover {
-	background-color: var(--active-color);
-	fill: var(--main-white);
-	cursor: pointer;
-}
-
-/* ============== THE END MAIN ============== */
-
 /* style footer */
 .footer-style {
 	background-color: rgba(47, 48, 58, 1);
@@ -782,9 +844,9 @@ figure {
 	background-color: var(--active-color);
 	cursor: pointer;
 }
-.icon-position {
+/* .icon-position {
 	margin: 12px;
-}
+} */
 .icon-sopace {
 	margin-right: 10px;
 }
