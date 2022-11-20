@@ -17,15 +17,15 @@
 	border-radius: 4px;
 	border: 1px solid var(--active-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
 
-.btnNewsletter__icon {
-	position: absolute;
-	top: 13px;
-	right: 28px;
-	display: block;
-}
+	&:hover {
+		cursor: pointer;
+	}
 
-.btnNewsletter:hover {
-	cursor: pointer;
+	&__icon {
+		position: absolute;
+		top: 13px;
+		right: 28px;
+		display: block;
+	}
 }

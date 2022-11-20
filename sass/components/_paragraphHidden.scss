@@ -4,11 +4,11 @@
 	left: 29px;
 	width: 301px;
 	height: 196px;
-}
 
-.paragraphHidden__text {
-	color: var(--main-white);
-	font-size: 18px;
-	line-height: 1.5555;
-	width: 100%;
+	&__text {
+		color: var(--main-white);
+		font-size: 18px;
+		line-height: 1.5555;
+		width: 100%;
+	}
 }

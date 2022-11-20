@@ -8,14 +8,15 @@
 	background-size: 1600px 600px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-.title__description {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 44px;
-	text-transform: uppercase;
-	color: var(--main-white);
+
+	&__description {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 44px;
+		text-transform: uppercase;
+		color: var(--main-white);
+	}
 }
 
 .title__btn {
@@ -32,9 +33,9 @@
 	border-radius: 4px;
 	border: 1px solid var(--active-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
 
-.title__btn:hover,
-.title__btn:active {
-	cursor: pointer;
+	&:hover,
+	&:active {
+		cursor: pointer;
+	}
 }

@@ -11,10 +11,10 @@
 	line-height: 1.7143;
 	letter-spacing: 0.03em;
 	color: var(--main-grey);
-}
 
-.checkboxLabel__link {
-	color: var(--active-color);
+	&__link {
+		color: var(--active-color);
+	}
 }
 
 .checkbox + .checkboxLabel::before {

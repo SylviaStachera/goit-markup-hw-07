@@ -5,13 +5,13 @@
 @import './components/body';
 @import './components/container';
 
-@import './components/header';
+@import './utils/header';
 @import './components/menu';
 @import './components/navigation';
 @import './components/logo';
 @import './components/listMenu';
 
-@import './components/flex';
+@import './utils/flex';
 @import './components/title';
 
 @import './components/big-header';
@@ -20,25 +20,25 @@
 @import './components/assets';
 @import './components/feature';
 
-@import './components/work';
-@import './components/box';
+@import './utils/work';
+@import './utils/box';
 @import './components/label';
 
-@import './components/team';
+@import './utils/team';
 @import './components/card';
-@import './components/social';
+@import './utils/social';
 @import './components/ellipse';
 
 @import './components/clients';
 
 @import './components/footer';
-@import './components/wrap';
-@import './components/spaceLogo';
+@import './utils/wrap';
+@import './utils/spaceLogo';
 @import './components/addess';
 @import './components/addressList';
 @import './components/addressItem';
 @import './components/footerHeader';
-@import './components/socialFooter';
+@import './utils/socialFooter';
 @import './components/ellipseFooter';
 @import './components/newsletter';
 @import './components/btnNewsletter';

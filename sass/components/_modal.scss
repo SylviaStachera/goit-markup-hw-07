@@ -23,8 +23,8 @@
 	background-repeat: no-repeat;
 	background-size: 18px, 18px;
 	background-position: center;
-}
 
-.modal__btn:hover {
-	cursor: pointer;
+	&:hover {
+		cursor: pointer;
+	}
 }

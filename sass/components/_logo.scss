@@ -7,22 +7,22 @@
 	font-weight: bold;
 	letter-spacing: 0.03em;
 	color: var(--active-color);
-}
 
-.logo--margin {
-	margin: 24px 93px 25px 0;
-}
+	&--margin {
+		margin: 24px 93px 25px 0;
+	}
 
-.logo__upper {
-	color: rgba(0, 0, 0, 1);
-}
+	&__upper {
+		color: rgba(0, 0, 0, 1);
+	}
 
-.logo__down {
-	font-size: 26px;
-	font-family: 'Raleway', sans-serif;
-	color: var(--main-white);
-	height: 31px;
-	width: 145px;
-	font-weight: bold;
-	letter-spacing: 0.03em;
+	&__down {
+		font-size: 26px;
+		font-family: 'Raleway', sans-serif;
+		color: var(--main-white);
+		height: 31px;
+		width: 145px;
+		font-weight: bold;
+		letter-spacing: 0.03em;
+	}
 }
