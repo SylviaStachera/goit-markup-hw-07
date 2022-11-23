@@ -633,12 +633,12 @@ body {
   margin-bottom: 20px;
 }
 
-.socialFooter {
+.media {
   display: flex;
   list-style: none;
 }
 
-.ellipseFooter {
+.media__ellipse {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -646,14 +646,14 @@ body {
   fill: var(--main-white);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ellipseFooter:hover {
+.media__ellipse:hover {
   background-color: var(--active-color);
   cursor: pointer;
 }
-.ellipseFooter--space {
+.media__ellipse--space {
   margin-right: 10px;
 }
-.ellipseFooter__position {
+.media__ellipse__position {
   margin: 12px;
 }
 

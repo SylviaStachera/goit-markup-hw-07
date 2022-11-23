@@ -1,4 +1,9 @@
-.ellipseFooter {
+.media {
+	display: flex;
+	list-style: none;
+}
+
+.media__ellipse {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
