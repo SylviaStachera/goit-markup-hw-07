@@ -302,10 +302,10 @@ body {
 .logo--margin {
   margin: 24px 93px 25px 0;
 }
-.logo__upper {
+.logo--upper {
   color: rgb(0, 0, 0);
 }
-.logo__down {
+.logo--down {
   font-size: 26px;
   font-family: "Raleway", sans-serif;
   color: var(--main-white);
@@ -599,28 +599,28 @@ body {
   letter-spacing: 0.03em;
 }
 
-.addressList {
+.address__list {
   display: flex;
   flex-direction: column;
   list-style: none;
   padding-bottom: 60px;
 }
 
-.addressItem {
+.address__item {
   margin-bottom: 9px;
 }
 
-.addressItem__link {
+.address__link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7143;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.addressItem__link--transition {
+.address__link--transition {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.addressItem__link:active, .addressItem__link:hover {
+.address__link:active, .address__link:hover {
   color: var(--active-color);
   cursor: pointer;
 }
