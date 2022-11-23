@@ -883,7 +883,7 @@ body {
   display: none;
 }
 
-.checkboxLabel {
+.check {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -894,11 +894,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-grey);
 }
-.checkboxLabel__link {
+.check__link {
   color: var(--active-color);
 }
 
-.checkbox + .checkboxLabel::before {
+.checkbox + .check::before {
   content: "";
   width: 16px;
   height: 15px;
@@ -908,7 +908,7 @@ body {
   cursor: pointer;
 }
 
-.checkbox:checked + .checkboxLabel::before {
+.checkbox:checked + .check::before {
   border: 2px solid var(--active-color);
   width: 16px;
   height: 15px;

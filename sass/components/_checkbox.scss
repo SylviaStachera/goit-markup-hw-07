@@ -1,7 +1,7 @@
 .checkbox {
 	display: none;
 }
-.checkboxLabel {
+.check {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,7 +17,7 @@
 	}
 }
 
-.checkbox + .checkboxLabel::before {
+.checkbox + .check::before {
 	content: '';
 	width: 16px;
 	height: 15px;
@@ -27,7 +27,7 @@
 	cursor: pointer;
 }
 
-.checkbox:checked + .checkboxLabel::before {
+.checkbox:checked + .check::before {
 	border: 2px solid var(--active-color);
 	width: 16px;
 	height: 15px;
